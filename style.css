@@ -12,3 +12,16 @@
     background-size: cover;
 }
 
+.overlay {
+    color: white;
+    display: flex;
+    gap: 20px;
+    position: relative;
+    top: 80px;
+    background-color: rgba(111, 110, 110, 0.5);
+}
+
+#overlay-text {
+    font-size: 2rem;
+}
+
