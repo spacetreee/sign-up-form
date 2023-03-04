@@ -7,17 +7,20 @@ html {
 }
 
 .left {
+    flex: 0.5;
     display: flex;
     flex-direction: column;
-
     position: relative;
-    width: 30vw;
     min-width: 300px;
     height: 100vh;
     border: 1px solid black;
     background: url(img/earth-space-view.jpg);
     background-size: cover;
     color: white;
+}
+
+.right {
+    flex: 1;
 }
 
 .overlay {
@@ -40,7 +43,7 @@ html {
 
 .intro-par {
     height: 25vh;
-    width: 100vw;
     font-size: 1.5rem;
     background-color: rgb(81, 85, 111);
+    color: white;
 }
