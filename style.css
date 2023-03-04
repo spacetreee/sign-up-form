@@ -2,6 +2,11 @@ html {
     font-size: 16px;
     font-family: 'Space Grotesk', sans-serif;
 }
+
+body {
+    margin: 0;
+}
+
 .content {
     display: flex;
 }
@@ -11,8 +16,7 @@ html {
     display: flex;
     flex-direction: column;
     position: relative;
-    min-width: 300px;
-    height: 100vh;
+    min-width: 200px;
     border: 1px solid black;
     background: url(img/earth-space-view.jpg);
     background-size: cover;
@@ -34,7 +38,7 @@ html {
 }
 
 #overlay-text {
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 #credit {
@@ -42,8 +46,14 @@ html {
 }
 
 .intro-par {
-    height: 25vh;
+    min-height: 25vh;
     font-size: 1.5rem;
-    background-color: rgb(81, 85, 111);
+    background-color: rgb(42, 42, 71);
     color: white;
+    padding: 200px 0px 30px 10px;
+    line-height: 1.5;
+}
+
+.form-container {
+    box-shadow: 2px 2px 2px rgb(183, 183, 183);
 }
