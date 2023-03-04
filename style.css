@@ -1,0 +1,14 @@
+.content {
+    display: flex;
+}
+
+.left {
+    position: relative;
+    width: 30vw;
+    min-width: 300px;
+    height: 100vh;
+    border: 1px solid black;
+    background: url(img/earth-space-view.jpg);
+    background-size: cover;
+}
+
