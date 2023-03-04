@@ -3,6 +3,9 @@
 }
 
 .left {
+    display: flex;
+    flex-direction: column;
+
     position: relative;
     width: 30vw;
     min-width: 300px;
@@ -10,10 +13,10 @@
     border: 1px solid black;
     background: url(img/earth-space-view.jpg);
     background-size: cover;
+    color: white;
 }
 
 .overlay {
-    color: white;
     display: flex;
     gap: 20px;
     position: relative;
@@ -27,3 +30,6 @@
     font-size: 2rem;
 }
 
+#credit {
+    margin-top: auto;
+}
