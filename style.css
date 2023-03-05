@@ -88,12 +88,14 @@ input:focus {
     border: 2px solid rgb(38, 38, 116);
     outline: none;
     background-color: rgb(255, 247, 193);
+    box-shadow: 2px 2px 5px rgb(183, 183, 183);
 }
 
 input {
     width: 200px;
     margin: 8px 0;
     border: 2px solid rgb(118,118,118);
+    border-radius: 5px;
 }
 
 /* styling bottom section with btn and log in option*/
