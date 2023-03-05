@@ -5,10 +5,17 @@ html {
 
 body {
     margin: 0;
+    height: 100vh;
 }
 
 .content {
     display: flex;
+}
+
+input, button {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 .left {
@@ -17,9 +24,9 @@ body {
     flex-direction: column;
     position: relative;
     min-width: 200px;
-    border: 1px solid black;
     background: url(img/earth-space-view.jpg);
     background-size: cover;
+    height: 100vh;
     color: white;
 }
 
@@ -45,6 +52,7 @@ body {
     margin-top: auto;
 }
 
+/*styling middle form section*/
 .intro-par {
     min-height: 25vh;
     font-size: 1.5rem;
@@ -83,9 +91,31 @@ input:focus {
 }
 
 input {
-    box-sizing: border-box;
     width: 200px;
-    padding: 0;
     margin: 8px 0;
     border: 2px solid rgb(118,118,118);
+}
+
+/* styling bottom section with btn and log in option*/
+.button-container {
+    padding: 20px 0px 20px 20px;
+}
+
+.button-container button {
+    margin-bottom: 20px;
+    border-radius: 3px;
+    background-color: rgb(42, 42, 71);
+    color: white;
+    font-weight: 700;
+    font-size: 1.05rem;
+    padding: 8px 20px;
+    box-shadow: 2px 2px 5px rgb(183, 183, 183);
+    border: 0;
+}
+
+.button-container a {
+    appearance: none;
+    text-decoration: none;
+    color:rgb(42, 42, 71);
+    font-weight: 700;
 }
